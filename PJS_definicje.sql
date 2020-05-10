@@ -270,7 +270,7 @@ CREATE OR REPLACE TRIGGER usuniecie_oceny_tg
  * NIE MOZNA ZMIENIC SREDNIEJ OCEN
  */
 
-/* 
+/*
 CREATE OR REPLACE TRIGGER zmiana_sredniej_tg
     BEFORE DELETE OR UPDATE OF srednia ON oceny_koncowe
     FOR EACH ROW

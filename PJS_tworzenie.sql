@@ -31,9 +31,9 @@ DROP SEQUENCE kod_oceny_koncowej_sek;
 DROP SEQUENCE id_opiekuna_sek;
 DROP SEQUENCE id_ucznia_sek;
  
- /*
-  * USUWANIE WYZWALACZY:
-  */
+/*
+ * USUWANIE WYZWALACZY:
+ */
   
 DROP TRIGGER kod_adresu_tg;
 DROP TRIGGER id_nauczyciela_tg;
@@ -52,12 +52,14 @@ DROP PROCEDURE srednia_ocen_pr;
 DROP PROCEDURE wszystkie_srednie_ocen_pr;
 DROP PROCEDURE oceny_proponowane_pr;
 DROP PROCEDURE swiadectwo_pr;
+DROP PROCEDURE podsumuj_wszystkich_pr;
  
- /*
-  * USUWANIE FUNKCJI:
-  */
+/*
+ * USUWANIE FUNKCJI:
+ */
  
 DROP FUNCTION policz_srednia_fun;
+DROP FUNCTION srednia_roczna_fun;
 
 /*
  * USUWANIE TABEL:
